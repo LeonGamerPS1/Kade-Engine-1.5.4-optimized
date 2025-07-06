@@ -36,7 +36,7 @@ class Sustain extends Tile
 		updateHitbox();
 
 		visible = true;
-		scale.set(parent.scale.x, 1);
+		scale.set(parent.scale.x, parent.scale.y);
 		updateHitbox();
 
 		antialiasing = parent.antialiasing;
